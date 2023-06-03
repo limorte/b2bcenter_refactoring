@@ -24,6 +24,9 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/db.php";
 class Users
 {
     /**
+     *
+     * Запрос и собор даные о пользователях из базы.
+     *
      * @param array $user_ids
      * @return array
      */
@@ -41,6 +44,8 @@ class Users
     }
 
     /**
+     * Соединение с бд
+     *
      * @return mysqli
      */
     public function db_connect(): mysqli
@@ -59,6 +64,8 @@ class Users
     }
 
     /**
+     * Преобразование массива для sql "id = 1 OR id = 2 ..."
+     *
      * @param $arr
      * @return string
      */
@@ -72,6 +79,8 @@ class Users
     }
 
     /**
+     * Преобразование $_GET в массив + ограничиваем только цифры и запятые
+     *
      * @param $str
      * @return array
      */
@@ -87,7 +96,7 @@ class Users
     }
 
     /**
-     * Функция делает это
+     * Проверка $_GET, отрисовка полученных данных о пользователях
      *
      * @return void
      */
