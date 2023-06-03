@@ -1,7 +1,7 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . "/db.php";
 /**
- * @link    http://github.com/limorte/
+ * @link    https://github.com/limorte/b2bcenter_refactoring
  * @author  Nikita Gorelov <limorte@me.com>
  * @version 0.1
  *

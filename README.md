@@ -1,3 +1,4 @@
+<h1>Здравствуйте</h1>
 <h2>Задание №1</h2>
 
 SELECT users.name, COUNT(phone_numbers.phone) as phone_count FROM users<br/>
@@ -13,3 +14,6 @@ GROUP BY users.name;
 <li>Так же не рекомендуется использовать html внутри php (MVC).</li>
 <li>Не выводилось сообщение если пользователи с данными id отсутствуют.</li>
 </ul>
+
+<h2>Связь со мной</h2>
+tg:limorte
